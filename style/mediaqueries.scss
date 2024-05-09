@@ -1,17 +1,19 @@
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     .menu-item {
-        display: none;
+        display: flex;
     }
     header{
+        background-image: url(/Images/Hero-background-desktop.jpg);
         #menu {
-            visibility: visible;
+            visibility: hidden;
         }
         #hero {
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        margin-left: 0;
-    }
+           text-align: left;
+           justify-content: start;
+           align-items: start;
+           margin-left: 100px;
+           
+        }
     } 
     
 }
