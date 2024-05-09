@@ -4,7 +4,7 @@ const body = document.querySelector("body");
 
 
 burgerMenuIcon.onclick = function showModal() {
-    modal.style.display = "flex";
+    modal.style.transform = "translateX(0%)";
     burgerMenuIcon.style.visibility = "hidden";
 }
 
@@ -12,6 +12,6 @@ body.addEventListener("click", function hideModal(event) {
     if(event.target.matches("#closeModal")) {
         console.log("close")
         burgerMenuIcon.style.visibility = "visible";
-        modal.style.display = "none";
+        modal.style.transform = "translateX(-100%)";
     }
 })

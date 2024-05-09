@@ -27,9 +27,9 @@ a {
 .modal {
     height: 100vh;
     width: 100vw;
-   
-
     background-color: #03335794;
+    transform: translateX(-100%);
+    transition: 1s all ease-in-out;
 }
 header {
     background-image: url(../Images/Hero-background-mobile.jpg);
@@ -44,7 +44,12 @@ header {
     span {
         color: $offWhite;
     }
-    #mobileMenu a {
+    #mobileMenu {
+        margin-top: 200px;
+            
+        
+    } 
+    a {
         list-style: none;
         text-decoration: none;
         color: $offWhite;
