@@ -1,12 +1,43 @@
+h1 {
+  color: #F4FAFF;
+}
+
+h2 {
+  color: #5FA6D5;
+}
+
+h1 {
+  color: #F4FAFF;
+}
+
+h2 {
+  color: #5FA6D5;
+}
+
+main {
+  background-color: #F4FAFF;
+  min-height: 100vh;
+  transform: translateY(-50px);
+  border-radius: 10px 10px 0 0;
+}
+
+#services {
+  flex-direction: column;
+}
+
+h2 {
+  color: #5FA6D5;
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #E4ECF2;
 }
 
 h1, h2 {
-  font-family: Aobashi One;
-  color: #F4FAFF;
+  font-family: Aoboshi One;
 }
 
 p, a {

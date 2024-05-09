@@ -1,0 +1,14 @@
+@import "colors.scss";
+main {
+    background-color: $offWhite;
+    min-height: 100vh;
+    transform: translateY(-50px);
+    border-radius: 10px 10px 0 0;
+    
+}
+#services {
+    flex-direction: column;
+}
+h2 { 
+    color: $lightBlue;
+}

@@ -10,6 +10,7 @@ burgerMenuIcon.onclick = function showModal() {
     burgerMenuIcon.style.visibility = "hidden";
     logo.style.visibility = "hidden";
     hero.style.visibility = "hidden";
+    body.style.overflow = "hidden";
 }
 
 body.addEventListener("click", function hideModal(event) {
@@ -17,6 +18,7 @@ body.addEventListener("click", function hideModal(event) {
         console.log("close")
         burgerMenuIcon.style.visibility = "visible";
         modal.style.transform = "translateX(-100%)";
+        body.style.overflow = "auto";
         setTimeout(function() {
             logo.style.visibility = "visible";
             hero.style.visibility = "visible";

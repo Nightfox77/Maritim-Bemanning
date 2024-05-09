@@ -1,0 +1,24 @@
+h1 {
+  color: #F4FAFF;
+}
+
+h2 {
+  color: #5FA6D5;
+}
+
+main {
+  background-color: #F4FAFF;
+  min-height: 100vh;
+  transform: translateY(-50px);
+  border-radius: 10px 10px 0 0;
+}
+
+#services {
+  flex-direction: column;
+}
+
+h2 {
+  color: #5FA6D5;
+}
+
+/*# sourceMappingURL=tjenesterStyles.css.map */

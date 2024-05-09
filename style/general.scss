@@ -1,11 +1,5 @@
-$darkBlue: #033357;
-$rosa: #FEB1B1;
-$lightGreen: #9CD9BC;
-$lightBlue: #5FA6D5;
-$offWhite: #F4FAFF;
-$lightGrey: #E4ECF2;
-$blueGrey: #3361A5;
-$darkGrey: #222222;
+@import "colors.scss";
+@import "tjenesterStyles.scss";
 
 
 
@@ -14,10 +8,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: $lightGrey;
 }
+
 h1, h2 {
-    font-family: Aobashi One;
-    color: $offWhite;
+    font-family: Aoboshi One;
+    
 }
 p, a { 
     font-family: Roboto;
@@ -76,3 +72,4 @@ header {
 .menu-item {
     display: none;
 }
+
