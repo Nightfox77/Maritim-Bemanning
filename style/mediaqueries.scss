@@ -1,0 +1,17 @@
+@media screen and (max-width: 600px) {
+    .menu-item {
+        display: none;
+    }
+    header{
+        #menu {
+            visibility: visible;
+        }
+        #hero {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    } 
+    
+}
