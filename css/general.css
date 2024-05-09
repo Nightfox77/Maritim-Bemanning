@@ -35,7 +35,7 @@ main {
 }
 
 #aboutHero {
-  background-image: url("/Images/Om oss bakgrunn.JPG");
+  background-image: url("../Images/Om oss bakgrunn-compressed.JPG");
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -88,7 +88,7 @@ span {
 }
 
 header {
-  background-image: url(../Images/Hero-background-mobile.jpg);
+  background-image: url(../Images/Hero-background-mobile-compressed.JPG);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

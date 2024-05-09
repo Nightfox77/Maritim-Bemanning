@@ -3,7 +3,7 @@
     display: flex;
   }
   header {
-    background-image: url(/Images/Hero-background-desktop.jpg);
+    background-image: url(../Images/Hero-background-desktop-compressed.JPG);
   }
   header #menu {
     visibility: hidden;
