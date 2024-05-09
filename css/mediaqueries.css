@@ -15,5 +15,13 @@
     margin-left: 100px;
   }
 }
+@media screen and (min-width: 1000px) {
+  #services {
+    flex-direction: row;
+    align-items: start;
+    gap: 150px;
+    padding-top: 200px;
+  }
+}
 
 /*# sourceMappingURL=mediaqueries.css.map */

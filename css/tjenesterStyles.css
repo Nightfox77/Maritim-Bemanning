@@ -11,13 +11,18 @@ main {
   min-height: 100vh;
   transform: translateY(-50px);
   border-radius: 10px 10px 0 0;
+  max-width: 1700px;
 }
 
 #services {
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 100px 0;
 }
 
-h2 {
+#services h2 {
   color: #5FA6D5;
 }
 
