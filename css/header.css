@@ -1,17 +1,61 @@
-/* Error: Undefined variable.
- *    ,
- * 13 |         color: $offWhite;
- *    |                ^^^^^^^^^
- *    '
- *   style\header.scss 13:16  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 13 \2502          color: $offWhite;\d\a    \2502                 ^^^^^^^^^\a    \2575 \a   style\\header.scss 13:16  root stylesheet";
+h1, h3 {
+  color: #F4FAFF;
 }
+
+h2 {
+  color: #5FA6D5;
+}
+
+.description, .info a {
+  color: #033357;
+}
+
+footer {
+  background-color: #033357;
+  color: #F4FAFF;
+}
+footer #credits a {
+  text-decoration: none;
+  color: #F4FAFF;
+}
+
+#upIcon {
+  color: #FEB1B1;
+}
+
+header {
+  background-image: url(../Images/Hero-background-mobile-compressed.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+header .logo {
+  max-width: max-content;
+  height: auto;
+}
+header span {
+  color: #F4FAFF;
+}
+header #mobileMenu {
+  margin-top: 200px;
+}
+header a {
+  list-style: none;
+  text-decoration: none;
+  color: #F4FAFF;
+}
+header a:hover {
+  text-decoration: underline;
+  text-decoration-color: #FEB1B1;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 5px;
+}
+header #hero {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/*# sourceMappingURL=header.css.map */

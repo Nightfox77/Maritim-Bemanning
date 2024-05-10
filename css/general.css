@@ -102,6 +102,31 @@ main {
   max-width: 100%;
 }
 
+h1, h3 {
+  color: #F4FAFF;
+}
+
+h2 {
+  color: #5FA6D5;
+}
+
+.description, .info a {
+  color: #033357;
+}
+
+footer {
+  background-color: #033357;
+  color: #F4FAFF;
+}
+footer #credits a {
+  text-decoration: none;
+  color: #F4FAFF;
+}
+
+#upIcon {
+  color: #FEB1B1;
+}
+
 header {
   background-image: url(../Images/Hero-background-mobile-compressed.JPG);
   background-position: center;
