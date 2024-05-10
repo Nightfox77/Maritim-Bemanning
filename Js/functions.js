@@ -14,8 +14,8 @@ burgerMenuIcon.onclick = function showModal() {
 }
 
 body.addEventListener("click", function hideModal(event) {
-    if(event.target.matches("#closeModal")) {
-        console.log("close")
+    if(event.target.matches("#closeModal") || (event.target.matches(".mobileMenuLink"))) {
+        
         burgerMenuIcon.style.visibility = "visible";
         modal.style.transform = "translateX(-100%)";
         body.style.overflow = "auto";

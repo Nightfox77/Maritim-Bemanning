@@ -1,0 +1,37 @@
+header {
+    background-image: url(../Images/Hero-background-mobile-compressed.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+    .logo {
+        max-width: max-content;
+        height: auto;
+    }
+    span {
+        color: $offWhite;
+    }
+    
+    #mobileMenu {
+        margin-top: 200px;
+    }
+    a {
+        list-style: none;
+        text-decoration: none;
+        color: $offWhite;
+    }
+    a:hover {
+        text-decoration: underline;
+        text-decoration-color: $rosa;
+        text-decoration-thickness: 5px;
+        text-underline-offset: 5px;
+    }
+    #hero {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    
+}

@@ -14,5 +14,20 @@ h1, h3 {
 }
 h2 {
     color: $lightBlue;
-    
+}
+.description, .info a {
+    color: $darkBlue;
+}
+footer {
+    background-color: $darkBlue;
+    color: $offWhite;
+    #credits {
+        a {
+            text-decoration: none;
+            color: $offWhite;
+        }
+    }
+}
+#upIcon {
+    color: $rosa;
 }

@@ -1,10 +1,12 @@
 @import "colors.scss";
-@import "tjenesterStyles.scss";
+@import "services.scss";
 @import "about.scss";
+@import "header.scss";
+@import "footer.scss";
 
-
-
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
@@ -12,16 +14,12 @@ body {
     background-color: $lightGrey;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: Aoboshi One;
     
 }
 p, a { 
     font-family: Roboto;
-}
-a {
-    text-decoration: none;
-    color: $offWhite;
 }
 span {
     cursor: pointer;
@@ -33,43 +31,7 @@ span {
     transform: translateX(-100%);
     transition: 1s all ease-in-out;
 }
-header {
-    background-image: url(../Images/Hero-background-mobile-compressed.JPG);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    
-    .logo {
-        max-width: max-content;
-        height: auto;
-    }
-    span {
-        color: $offWhite;
-    }
-    
-    #mobileMenu {
-        margin-top: 200px;
-    }
-    a {
-        list-style: none;
-        text-decoration: none;
-        color: $offWhite;
-    }
-    a:hover {
-        text-decoration: underline;
-        text-decoration-color: $rosa;
-        text-decoration-thickness: 5px;
-        text-underline-offset: 5px;
-    }
-    #hero {
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        margin-top: 100px;
-    }
-    
-}
+
 .menu-item {
     display: none;
 }

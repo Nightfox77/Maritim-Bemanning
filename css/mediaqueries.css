@@ -8,15 +8,18 @@
   header #menu {
     visibility: hidden;
   }
-  header #hero {
+  header #hero, .aboutHeroText {
     text-align: left;
     justify-content: start;
     align-items: start;
     margin-left: 100px;
   }
+  #about {
+    justify-content: start;
+  }
 }
 @media screen and (min-width: 1000px) {
-  #services {
+  #services, #staff {
     flex-direction: row;
     align-items: start;
     gap: 150px;

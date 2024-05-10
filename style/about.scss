@@ -1,9 +1,12 @@
-#aboutHero {
+#about {
     background-image: url("../Images/Om oss bakgrunn-compressed.JPG");
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    min-height: 80vh;
+    max-height: 100vh;
     position: relative;
+    justify-content: center;
+    align-items: center;
     
 }
 #gradientOverlay {
@@ -16,4 +19,17 @@
 .aboutHeroText {
     position: relative;
     z-index: 2;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#staff {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 0;
+    max-width: 100%;
+    
 }

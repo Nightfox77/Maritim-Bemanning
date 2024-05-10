@@ -5,6 +5,7 @@ main {
     transform: translateY(-50px);
     border-radius: 10px 10px 0 0;
     max-width: 1700px;
+    
 }
 #services {
     flex-direction: column;
@@ -12,8 +13,6 @@ main {
     align-items: center;
     gap: 50px;
     padding: 100px 0;
+    max-width: 100%;
     
-}
-#services h2 { 
-    color: $lightBlue;
 }

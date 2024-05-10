@@ -1,0 +1,13 @@
+#upIcon {
+    transform: translateY(-15px);
+}
+footer {
+    
+    margin-top: -50px;
+}
+.icon:hover, #creditLogo:hover {
+    transform: scale(115%);
+    transition: .3s all ease-in;
+    cursor: pointer;
+}
+
