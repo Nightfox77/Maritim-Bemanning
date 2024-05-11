@@ -4,7 +4,7 @@ const body = document.querySelector("body");
 const logo = document.querySelector(".logo")
 const hero = document.querySelector("#hero");
 
-
+/* show Modal */
 burgerMenuIcon.onclick = function showModal() {
     modal.style.transform = "translateX(0%)";
     burgerMenuIcon.style.visibility = "hidden";
@@ -12,7 +12,7 @@ burgerMenuIcon.onclick = function showModal() {
     hero.style.visibility = "hidden";
     body.style.overflow = "hidden";
 }
-
+/* hide Modal */
 body.addEventListener("click", function hideModal(event) {
     if(event.target.matches("#closeModal") || (event.target.matches(".mobileMenuLink"))) {
         
@@ -26,3 +26,18 @@ body.addEventListener("click", function hideModal(event) {
        
     }
 })
+/* slide in effect */
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries) =>{
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        } else {
+          entry.target.classList.remove('show');
+        }
+      })
+    })
+    
+    const hiddenElements = document.querySelectorAll('.hidden');
+    hiddenElements.forEach((el) => observer.observe(el));  
+    })

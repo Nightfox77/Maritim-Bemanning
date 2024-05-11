@@ -22,11 +22,11 @@
 </head>
 <body id="header">
    
-    <header  class="d-flex flex-column align-items-center px-2">
+    <header  class="d-flex flex-column align-items-center px-2 ">
         <div  class="ms-auto "   >
             <span id="menu" class="material-symbols-outlined m-3 mb-0 ">menu</span>
         </div>
-        <nav class="d-flex gap-5 align-items-center">
+        <nav class="d-flex gap-5 align-items-center hidden">
             <div class="menu-item">
                 <a href="#header">Hjem</a>
             </div>
@@ -43,9 +43,9 @@
                 <a href="#footer">Kontakt</a>
             </div>
         </nav>
-        <section id="hero" class="d-flex flex-column gap-3   ">
+        <section id="hero" class="d-flex flex-column gap-3  hidden  ">
             <h1 class="">Maritim bemanning</h1>
-            <p class="text-white col-9 col-md-6 col-lg-4">I vår bedrift er hovedfokuset å ansette og formidle kvalifisert personell til ulike rederier innen ferge- og passasjerbåtsektoren. Vi fungerer som en nærværende og personlig rekrutteringspartner og arbeidsgiver. Kjerneverdiene til Maritim kurs og kompetanse er pålitelighet, effektivitet og kompetanse.</p>
+            <p class="text-white col-9 col-md-6 col-lg-4 ">I vår bedrift er hovedfokuset å ansette og formidle kvalifisert personell til ulike rederier innen ferge- og passasjerbåtsektoren. Vi fungerer som en nærværende og personlig rekrutteringspartner og arbeidsgiver. Kjerneverdiene til Maritim kurs og kompetanse er pålitelighet, effektivitet og kompetanse.</p>
 
         </section> 
         <modal class="modal d-flex flex-column   ">
@@ -68,11 +68,11 @@
     </header>
     <main class="col m-auto" >
         <section  id="services" class="row d-flex m-auto">
-            <div class="serviceBox d-flex flex-column text-center col-11 col-md-6 col-lg-4 gap-3">
-                <div class="serviceIcon ">
+            <div class="serviceBox d-flex flex-column text-center col-11 col-md-6 col-lg-4 gap-3 ">
+                <div class="serviceIcon hidden">
                     <img src="Images/Icon for bedrifter.png" width="70px" height="70px" alt="icon for bedrifter">
                 </div>
-                <div class="serviceText">
+                <div class="serviceText hidden">
                     <h2 class="mb-3">For bedrifter</h2>
                     <p class="description">Ved å samarbeide med oss får dere tilgang til kvalifisert og erfarent 
                                 sjømannskap uten å måtte ta dere av omfattende ansettelsesprosess og
@@ -84,11 +84,11 @@
                                 sykemeldinger.</p>
                 </div>
             </div>
-            <div class="serviceBox d-flex flex-column text-center col-11 col-md-6 col-lg-4  gap-3">
-                <div class="serviceIcon ">
+            <div class="serviceBox d-flex flex-column text-center col-11 col-md-6 col-lg-4  gap-3 ">
+                <div class="serviceIcon hidden ">
                     <img src="Images/Icon for arbeidssokende.png" width="70px" height="70px" alt="icon for arbeidssokende">
                 </div>
-                <div class="serviceText">
+                <div class="serviceText hidden">
                     <h2 class="mb-3">For arbeidssøkende</h2>
                     <p class="description">Skap Ditt Fremtidige Eventyr med Oss: Uansett om du er en erfaren sjømann som søker nye utfordringer, 
                                 eller en nyutdannet som drømmer om å begynne din karriere til sjøs, så er Maritim Kurs og kompetanse ditt kompass mot suksess. 
@@ -101,7 +101,7 @@
             <div id="gradientOverlay" class="">
 
             </div>
-            <div class="aboutHeroText d-flex flex-column  col-9 col-md-6 col-lg-4 ">
+            <div class="aboutHeroText d-flex flex-column  col-9 col-md-6 col-lg-4 hidden ">
                 <h3 class=" fs-1 mb-5">Om oss</h3>
                 <p class="text-white ">Vi er en liten, familieeid bedrift som dedikerer oss til arbeidet med maritim sjøbemanning. 
                                         Med lidenskap og erfaring arbeider vi for å tilby skreddersydde bemanningsløsninger som imøtekommer behovene til våre kunder innenfor maritim næring. 
@@ -113,7 +113,7 @@
             
         </section>
         <section  id="staff" class="row d-flex m-auto ">
-                        <div class="staffMember d-flex flex-column text-center col-11 col-md-6 col-lg-4 gap-3">
+                        <div class="staffMember d-flex flex-column text-center col-11 col-md-6 col-lg-4 gap-3 hidden">
                             <div class="staffText">
                                 <h2 class="mb-3">Silje Sørrensen</h2>
                                 <p class="description">HR - rådgiver</p>
@@ -123,7 +123,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="staffMember d-flex flex-column text-center col-11 col-md-6 col-lg-4  gap-3">
+                        <div class="staffMember d-flex flex-column text-center col-11 col-md-6 col-lg-4  gap-3 hidden">
                         <div class="staffText">
                                 <h2 class="mb-3">Steinar Pedersen</h2>
                                 <p class="description">Daglig leder</p>
@@ -138,7 +138,7 @@
         <div id="upIcon" class=" d-flex justify-content-end me-3 ">
             <a href="#header"><img class="icon" src="/Images/UP.png" alt="up icon" width="30px" height="30px" alt="up icon"></a>
         </div>
-        <div id="contact" class="d-flex flex-column justify-content-center align-items-center mt-auto gap-3 pb-5">
+        <div id="contact" class="d-flex flex-column justify-content-center align-items-center mt-auto gap-3 pb-5 hidden">
             <h4>© Maritim Bemanning AS</h4>
             <div id="social">
                 <p class="">Følg oss</p>
@@ -148,12 +148,12 @@
                 </div>
             </div>
         </div>
-        <div id="credits" class="ms-2 pb-2 d-flex">
+        <div id="credits" class=" d-flex flex-column align-items-center pb-5 hidden">
             <a id="creditLogo" href="https://www.mb-web.no/">
-                <img  class="me-2" src="/Images/Icon logo mbweb.png" alt="Mbweb logo" width="50px" height="50px">
+                <img  class="" src="/Images/Icon logo mbweb.png" alt="Mbweb logo" width="50px" height="50px">
             </a>
             <a id="creditText" class="d-flex align-items-center " href="https://www.mb-web.no/">
-                <span  class="m-0">Nettside levert av Mb-web</span>
+                <span  class="">Nettside levert av Mb-web</span>
             </a>
         </div>
         
