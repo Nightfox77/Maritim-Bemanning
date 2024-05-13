@@ -1,4 +1,4 @@
-h1, h3 {
+h1, #about h3 {
   color: #F4FAFF;
 }
 
@@ -6,7 +6,7 @@ h2 {
   color: #5FA6D5;
 }
 
-.description, .info a {
+.description, .info a, .serviceHero h3, .serviceText li {
   color: #033357;
 }
 
@@ -23,7 +23,7 @@ footer #credits a {
   color: #FEB1B1;
 }
 
-h1, h3 {
+h1, #about h3 {
   color: #F4FAFF;
 }
 
@@ -31,7 +31,7 @@ h2 {
   color: #5FA6D5;
 }
 
-.description, .info a {
+.description, .info a, .serviceHero h3, .serviceText li {
   color: #033357;
 }
 
@@ -102,7 +102,7 @@ main {
   max-width: 100%;
 }
 
-h1, h3 {
+h1, #about h3 {
   color: #F4FAFF;
 }
 
@@ -110,7 +110,7 @@ h2 {
   color: #5FA6D5;
 }
 
-.description, .info a {
+.description, .info a, .serviceHero h3, .serviceText li {
   color: #033357;
 }
 
@@ -191,7 +191,7 @@ h1, h2, h3, h4 {
   font-family: Aoboshi One;
 }
 
-p, a {
+p, a, li {
   font-family: Roboto;
 }
 

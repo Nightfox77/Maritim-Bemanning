@@ -1,4 +1,4 @@
-h1, h3 {
+h1, #about h3 {
   color: #F4FAFF;
 }
 
@@ -6,7 +6,7 @@ h2 {
   color: #5FA6D5;
 }
 
-.description, .info a {
+.description, .info a, .serviceHero h3, .serviceText li {
   color: #033357;
 }
 

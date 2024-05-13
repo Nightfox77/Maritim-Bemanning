@@ -9,7 +9,7 @@ burgerMenuIcon.onclick = function showModal() {
     modal.style.transform = "translateX(0%)";
     burgerMenuIcon.style.visibility = "hidden";
     logo.style.visibility = "hidden";
-    hero.style.visibility = "hidden";
+    hero.classList.remove("show");
     body.style.overflow = "hidden";
 }
 /* hide Modal */
@@ -21,7 +21,7 @@ body.addEventListener("click", function hideModal(event) {
         body.style.overflow = "auto";
         setTimeout(function() {
             logo.style.visibility = "visible";
-            hero.style.visibility = "visible";
+            hero.classList.add("show");
         }, 500);
        
     }
